@@ -20,14 +20,14 @@ int main(int argc, const char * argv[]) {
     
     char *start = malloc(5);
     
-    *start = 'L';
-    *(start + 1) = 'o';
-    *(start + 2) = 'v';
-    *(start + 3) = 'e';
-    *(start + 4) = '\0';
+    start[0] = 'L';
+    start[1] = 'o';
+    start[2] = 'v';
+    start[3] = 'e';
+    start[4] = '\0';
     
     printf("%s has %zu characters\n", start, strlen(start));
-    printf("The third letter is %c\n", *(start + 2));
+    printf("The third letter is %c\n", start[2]);
     
     free(start);
     start = NULL;
