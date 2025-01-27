@@ -20,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		A5B324DE2D480E7000B0D1A6 /* yostring */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = yostring; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5B324E82D480E7700B0D1A6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -44,6 +45,7 @@
 		A5B324D52D480E7000B0D1A6 = {
 			isa = PBXGroup;
 			children = (
+				A5B324E82D480E7700B0D1A6 /* README.md */,
 				A5B324E02D480E7000B0D1A6 /* yostring */,
 				A5B324DF2D480E7000B0D1A6 /* Products */,
 			);
