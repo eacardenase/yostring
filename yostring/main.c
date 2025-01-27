@@ -8,7 +8,13 @@
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    char x = 0x21;
+    
+    while (x <= 0x7e) {
+        printf("%x is %c\n", x, x);
+        
+        x++;
+    }
+
     return 0;
 }
