@@ -18,19 +18,12 @@ int main(int argc, const char * argv[]) {
         x++;
     }
     
-    char *start = malloc(5);
+    const char *start = "Love";
     
-    start[0] = 'L';
-    start[1] = 'o';
-    start[2] = 'v';
-    start[3] = 'e';
-    start[4] = '\0';
+//    start[2] = "z"; compiler error if const, runtime error if not
     
     printf("%s has %zu characters\n", start, strlen(start));
     printf("The third letter is %c\n", start[2]);
-    
-    free(start);
-    start = NULL;
 
     return 0;
 }
